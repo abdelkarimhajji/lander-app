@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+nav{
+    display: flex;
+    background-color:#f38e58;
+    position: fixed;
+    top: 0; 
+    z-index: 1;
+}
+nav img{
+    width: 120px;
+    margin-left: 80px;
+    margin-top:20px;
+}
+.header_list{
+    margin-top: 20px;
+}
+nav ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 600px;
+}
+nav li{
+    display: inline;
+    margin-left: 50px;
+    font-size: 40;
+    color: white;
+}
+ input::placeholder{
+opacity: 50%;
+ }
+ textarea::placeholder{
+    opacity: 50%;
+ }
+nav button{
+    background: #1A1717;
+    width: 230px;
+    height: 30px;
+    margin-right: 250px;
+    border-radius: 7px;
+    margin-top: 20px;
+    
+}
+.button1{
+    color: cornsilk;
+    border: 2px solid #02202f;
+    background-color:#02202f;
+    width: 160px;
+    height:40px;
+    font-size: 12px;
+}
+.button1:hover{ 
+    background-color: #05345b; 
+}
+.button2{
+    color: cornsilk; 
+    background-color: #f38e58;
+    width: 60px;
+    border: 2px solid white;
+    margin-left:-230px;
+    font-size: 12px;
+    width:100px ;
+    height: 40px;
+    
+}
+.button2:hover{ 
+    background-color: #e2d1c71e;
+}
+.header{
+    color: white;
+    padding: 12%; 
+    background-color: #f38e58;
+}
+.title{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.par{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size: 20px;
+    color: #01212e;
+}
+main{
+   display: flex; 
+   flex-direction: row;
+}
+main div{
+    padding-left: 6%;
+    padding-right: 2%}
+.main_left{
+    width: 50%;
+}
+.main_right{
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction:column;
+}
+.p{
+    padding-top: 20px;
+}
+h3{
+margin-top: 20px;
+font-size: 30px;
+color: #5db4db;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin-top: 20px;
+}
+
+form input{
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+form textarea{
+    height: 140px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid black
+}
+
+
+
+#button_main{
+    background-color:#f38e58 ;
+    margin-left: 490px;
+    width: 100px;
+    height: 40px;
+    color: rgba(8, 8, 8, 0.596);
+    border-color:#f38e58 ;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+#button_main:hover{
+    background-color:#e2af938f ;
+    border-color:#e2af938f;
+}
+
+.h4{
+    margin-top: 40px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 25px;
+    font-weight: normal;
+    color: black;
+    font-weight:solid;
+}
+
+
+.SM{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 6px;
+}
+
+i{
+    font-size: 50px;
+    margin-right: 20px;
+   color:#F38E58;
+}
+
+main a{
+    color:coral;
+    text-decoration: none;
+}
+
+.f{
+    margin-top: -20px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    font-size: 15px;
+    
+    padding:10px 40px ;
+    height: 270px;
+    background-color: #404040;
+    margin-top: 60px;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.596);
+    
+    
+}
+  
+footer ul{
+    list-style:none;
+    margin-top: 10px;
+}
+.button3{
+    color: cornsilk;
+    border: 2px solid #032030;
+    background-color:#032030;
+    width: 180px;
+    height:40px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.button3:hover{
+    background-color:#6994ac85;
+}
+footer i{
+    font-size:20px;
+}
+h4{
+    color: white;
+}
+footer ul li{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.cooperate{
+    background-color: #333333;
+    height: 30px;
+    padding-left: 40px;
+    margin-top: -20px;
+    color: cornsilk; 
+}
+
+footer a{
+    text-decoration: none;
+    color: #f38e58;
+}
+footer p{
+    padding-top: 6px;
+}
