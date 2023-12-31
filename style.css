@@ -13,6 +13,9 @@ nav{
     position: fixed;
     top: 0; 
     z-index: 1;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
 }
 nav img{
     width: 120px;
@@ -51,17 +54,20 @@ nav button{
 }
 .button1{
     color: cornsilk;
-    border: 2px solid #02202f;
+    border: 1px solid #02202f;
     background-color:#02202f;
     width: 160px;
     height:40px;
     font-size: 12px;
+    transition: 0.5s all ease-out;
+    cursor: pointer;
 }
 .button1:hover{ 
-    background-color: #05345b; 
+    background-color: #041d32; 
+    border: 1px solid #052239;
 }
 .button2{
-    color: cornsilk; 
+    color: cornsilk;
     background-color: #f38e58;
     width: 60px;
     border: 2px solid white;
@@ -69,6 +75,8 @@ nav button{
     font-size: 12px;
     width:100px ;
     height: 40px;
+    cursor: pointer;
+    transition: 0.5s all ease-out;
     
 }
 .button2:hover{ 
@@ -84,24 +92,27 @@ nav button{
     margin-top: -40px;
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
 }
 .par{
     text-align: center;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: inherit;
-    font-size: 20px;
+    font-size: 18px;
     color: #01212e;
 }
 main{
    display: flex; 
    flex-direction: row;
+   margin-top: 50px;
 }
 main div{
     padding-left: 6%;
     padding-right: 2%}
 .main_left{
     width: 50%;
+    /* background-color: red; */
 }
 .main_right{
     width: 50%;
@@ -122,13 +133,14 @@ font-family: Arial, Helvetica, sans-serif;
 
 p{
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 form input{
     margin-top: 20px;
     border-radius: 5px;
-    height: 30px;
-    border: 1px solid black;
+    height: 42px;
+    border: 1px solid rgb(152, 152, 152);
     padding-left: 10px;
     font-style: italic;
 }
@@ -139,14 +151,17 @@ form textarea{
     margin-top: 20px;
     padding-left: 10px;
     padding-top: 10px;
-    border: 1px solid black
+    border: 1px solid rgb(152, 152, 152);
 }
 
 
-
+.input_button
+{
+    display: flex;
+    justify-content: flex-end;
+}
 #button_main{
     background-color:#f38e58 ;
-    margin-left: 490px;
     width: 100px;
     height: 40px;
     color: rgba(8, 8, 8, 0.596);
@@ -160,7 +175,7 @@ form textarea{
 }
 
 .h4{
-    margin-top: 40px;
+    margin-bottom: 40px;
     font-family:Arial, Helvetica, sans-serif ;
     font-size: 25px;
     font-weight: normal;
@@ -171,12 +186,19 @@ form textarea{
 
 .SM{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding-inline: 6px;
+    margin-bottom: 25px;
+    width: 90%;
+    /* background-color: red; */
+    padding: 0;
+    
 }
-
+.SM .parentIcon
+{
+    width: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 i{
     font-size: 50px;
     margin-right: 20px;
@@ -188,23 +210,29 @@ main a{
     text-decoration: none;
 }
 
-.f{
+/* .f{
     margin-top: -20px;
-}
+} */
 
+footer
+{
+    background-color: #404040;
+    margin-top: 100px;
+
+}
 .footer-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
     font-size: 15px;
-    
     padding:10px 40px ;
     height: 270px;
+    width: 75%;
     background-color: #404040;
     margin-top: 60px;
     padding-top: 50px;
     color: rgba(255, 255, 255, 0.596);
-    
+    margin: 0 auto;
     
 }
   
@@ -214,16 +242,19 @@ footer ul{
 }
 .button3{
     color: cornsilk;
-    border: 2px solid #032030;
+    border: 1px solid #032030;
     background-color:#032030;
-    width: 180px;
-    height:40px;
+    width: 200px;
+    height:48px;
     font-size: 12px;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s all ease-out;
 }
 
 .button3:hover{
-    background-color:#6994ac85;
+    background-color:#05192585;
+    border: 1px solid #0f1e2785
 }
 footer i{
     font-size:20px;
