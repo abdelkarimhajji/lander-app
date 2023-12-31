@@ -107,7 +107,7 @@ nav .button{
     font-family: Arial, Helvetica, sans-serif;
     font-style: inherit;
     font-size: 18px;
-    color: #01212e;
+    color: white;
 }
 main{
    display: flex; 
@@ -167,12 +167,13 @@ form textarea{
 {
     display: flex;
     justify-content: flex-end;
+    color: white;
 }
 #button_main{
     background-color:#f38e58 ;
     width: 100px;
     height: 40px;
-    color: rgba(8, 8, 8, 0.596);
+    color: white;
     border-color:#f38e58 ;
     font-family:Arial, Helvetica, sans-serif ;
     
