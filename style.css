@@ -28,8 +28,7 @@ nav img{
 nav ul{
     list-style: none;
     margin-top: 10px;
-    margin-left: 70px;
-    width: 600px;
+    width: 100%;
 }
 nav li{
     display: inline;
@@ -38,25 +37,27 @@ nav li{
     color: white;
 }
  input::placeholder{
-opacity: 50%;
+    opacity: 50%;
  }
  textarea::placeholder{
     opacity: 50%;
  }
-nav button{
-    background: #1A1717;
+nav .button{
     width: 230px;
     height: 30px;
-    margin-right: 250px;
-    border-radius: 7px;
+   
     margin-top: 20px;
-    
+    display: flex;
+    margin-left: 50px;
 }
+
+
 .button1{
     color: cornsilk;
     border: 1px solid #02202f;
     background-color:#02202f;
-    width: 160px;
+    border-radius: 7px;
+    width: 200px;
     height:40px;
     font-size: 12px;
     transition: 0.5s all ease-out;
@@ -71,7 +72,8 @@ nav button{
     background-color: #f38e58;
     width: 60px;
     border: 2px solid white;
-    margin-left:-230px;
+    border-radius: 7px;
+    margin-left: 20px;
     font-size: 12px;
     width:100px ;
     height: 40px;
@@ -86,6 +88,11 @@ nav button{
     color: white;
     padding: 12%; 
     background-color: #f38e58;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .title{
     text-align: center;
@@ -107,6 +114,7 @@ main{
    flex-direction: row;
    margin-top: 50px;
 }
+
 main div{
     padding-left: 6%;
     padding-right: 2%}
@@ -186,7 +194,6 @@ form textarea{
 
 .SM{
     display: flex;
-    margin-bottom: 25px;
     width: 90%;
     /* background-color: red; */
     padding: 0;
@@ -219,21 +226,20 @@ footer
     background-color: #404040;
     margin-top: 100px;
 
+
 }
 .footer-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-around;
     font-size: 15px;
-    padding:10px 40px ;
-    height: 270px;
+    min-height: 270px;
     width: 75%;
     background-color: #404040;
     margin-top: 60px;
     padding-top: 50px;
     color: rgba(255, 255, 255, 0.596);
     margin: 0 auto;
-    
 }
   
 footer ul{
@@ -280,4 +286,51 @@ footer a{
 }
 footer p{
     padding-top: 6px;
+}
+
+@media(max-width:1370px)
+{
+    footer .footer-content{
+        width: 100%;
+    }
+}
+@media(max-width: 1069px){
+    nav .button{
+        display: none;
+    }
+    /* .button1{
+        display: none;
+    } */
+}
+
+@media(max-width:1000px)
+{
+    main
+    {
+        flex-direction: column;
+    }
+    .main_left{
+        width: 90%;
+        /* background-color: red; */
+    }
+    .main_right{
+        width: 90%;
+        /* background-color: red; */
+    }
+   
+}
+@media(max-width:850px)
+{
+    .header
+    {
+        height: 300px;
+    }
+}
+
+@media(max-width:740px)
+{
+    footer .footer-content{
+        flex-direction: column;
+        
+    } 
 }
