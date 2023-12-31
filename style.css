@@ -332,5 +332,12 @@ footer p{
     footer .footer-content{
         flex-direction: column;
         
-    } 
+    }
+    .footer-content div
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
